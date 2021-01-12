@@ -12,8 +12,9 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     font-family: Tahoma;
      padding: 20px;
+     background: url("../images/sharkie2.png") no-repeat center fixed;
 }
 
 .jumbotron {
@@ -45,6 +46,15 @@ img .thumbnail {
 }
 
 .project {
-     background-color: gray;
      margin-left: 20px;
+}
+
+img {
+     width: 420px;
+     height: auto;
+}
+
+.cred {
+     font-size: xx-small;
+     margin-left: 50px;
 }
